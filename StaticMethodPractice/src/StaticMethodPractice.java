@@ -1,4 +1,4 @@
-
+//added to git
 public class StaticMethodPractice {
 
 	public static void main(String[] args) {
