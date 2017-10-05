@@ -24,7 +24,7 @@ public class IfStatementPractice {
 		}
 		
 		//used for project 4-3
-		
+		System.out.println(phoneCallCost(4) + " Dollars");
 	}
 	
 	public static int max(int num1, int num2){
@@ -59,8 +59,11 @@ public class IfStatementPractice {
 		return false;
 	}
 	
-	public static double phoneCallCost(int length) {
-		
+	public static double phoneCallCost(double length) {
+		if (length > 2) {
+			return ((length - 2) * .5 + 1.15);
+		}
+		return 1.15;
 	}
 	
 }
